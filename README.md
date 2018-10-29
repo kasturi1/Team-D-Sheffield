@@ -1,2 +1,2 @@
 # Team-D-Sheffield
-Team D repository 
+Team D repository for recipe website 
