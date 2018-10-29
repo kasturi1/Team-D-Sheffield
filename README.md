@@ -1,4 +1,4 @@
 # Team-D-Sheffield
-Team D repository for recipe website 
+Team D repository for hot sauce website 
 ........
 picture
