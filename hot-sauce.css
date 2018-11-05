@@ -13,8 +13,13 @@ h1{
   margin: 0 auto;
   text-align: center;
 }
+h2 {
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
 ul {
-  background rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.5);
   padding: 10px
 }
 li {
@@ -25,4 +30,8 @@ li {
 a {
   color: white;
   text-decoration: none;
+}
+p {
+  color:white;
+  text-align:center;
 }
