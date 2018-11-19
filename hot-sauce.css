@@ -1,37 +1,52 @@
 body {
   background: black;
 }
-header {
-  text-align: center;
-  margin: 0 auto;
-  color: white;
+#Spotlight {
+  margin-top: 100px;
 }
-h1{
-  font-size: 56px;
-  font-family: 'Yeseva One', cursive;
-  padding: 25px 0px 0px 0px;
-  margin: 0 auto;
-  text-align: center;
+h1 {
+    color:white;
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+    padding: 20px;
 }
 h2 {
   color:white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Yeseva One', cursive;
   text-align: center;
 }
-ul {
+h3 {
+  color:white
+  font-family: 'Yeseva One', cursive;
+  text-align: right;
+}
+ul.navbar-nav {
   background: rgba(0,0,0,0.5);
-  padding: 10px
+  padding: 5px;
 }
 li {
-  display: inline;
   font-family: verdana;
-  margin: 0 10px 0 10px;
+  padding: 10px;
+  color:white;
+}
+ul.ingredients {
+  line-height: 5px;
 }
 a {
   color: white;
   text-decoration: none;
 }
+a.link {
+  margin-top: ;
+}
 p {
   color:white;
   text-align:center;
+}
+#logo {
+  width:50px;
+  height:50px;
+  border:0;
+  margin: 10px 10px auto auto;
+  padding: 0;
 }

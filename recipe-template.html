@@ -7,7 +7,8 @@
   <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="hot-sauce.css">
-  <title>Hot Sauce - Student-Friendly Recipes</title>
+  <link rel="stylesheet" type="text/css" href="recipe-template-style.css">
+  <title>Recipe Template - Hot Sauce</title>
 </head>
 <body>
 
@@ -25,8 +26,7 @@
       </div>
       <div class="collapse navbar-collapse" id="hs-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active"><a class="link" href="#">Home<span class="sr-only">
-          current</span></a></li>
+          <li><a class="link" href="#">Home</a></li>
           <li><a class="link" href="#">About</a></li>
           <li><a class="link" href="#">Recipes</a></li>
           <li class="dropdown">
@@ -49,34 +49,40 @@
     </div>
   </nav>
 
-  <div id="Spotlight">
-    <div class="container">
+  <!-- image title and description -->
+  <div id="pre-recipe">
+    <div class="containter">
       <div class="row">
         <div class="col-md-4">
-          <h2>Recipe 1</h2>
-          <p>[photo here]</p>
+          <img class="template-img" src="#"> <!-- insert photo here-->
         </div>
-        <div class="col-md-4">
-          <h2>Recipe 2</h2>
-          <p>[photo here]</p>
-        </div>
-        <div class="col-md-4">
-          <h2>Recipe 3</h2>
-          <p>[photo here]</p>
+        <div class="col-md-8">
+          <h1> Recipe Template </h1>
+          <p class="recipe-description"> [Description]This recipe is really tasty and perfect as a winter warmer </p>
+          <p class="recipe-info"> Serves: 5 / Time: 30 mins / Difficulty: Medium </p>
         </div>
       </div>
     </div>
   </div>
 
-  <div id=inspiration>
+  <!-- ingredients and recipe -->
+  <div id="recipe">
     <div class="container">
-
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Ingredients</h3> <!-- can't alter the css on this for some reason? -->
+          <ul class="ingredients">
+            <li>1 white onion</li>
+            <li>50g potato</li>
+            <li>100 chickpeas</li>
+            <li>3 medium tomatoes</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 
-  <script>
 
-  </script>
 
 </body>
 </html>
