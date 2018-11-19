@@ -16,9 +16,9 @@ h2 {
   text-align: center;
 }
 h3 {
-  color:white
+  color:white;
   font-family: 'Yeseva One', cursive;
-  text-align: right;
+  text-align: left;
 }
 ul.navbar-nav {
   background: rgba(0,0,0,0.5);
@@ -30,7 +30,12 @@ li {
   color:white;
 }
 ul.ingredients {
-  line-height: 5px;
+  line-height: 10px;
+  text-align: left;
+  list-style-type: none;
+}
+.recipe-steps {
+  line-height: 10px;
 }
 a {
   color: white;
